@@ -1,0 +1,42 @@
+{
+  "name": "myphonespeaker",
+  "version": "1.0.0",
+  "description": "Water eject tone for phone speakers as a WAV file, speaker check sweep, wet phone first aid and a drying timer. CLI for myphonespeaker.com.",
+  "keywords": [
+    "water-eject",
+    "water-eject-sound",
+    "speaker-cleaner",
+    "phone-speaker",
+    "wet-phone",
+    "water-damage",
+    "speaker-test",
+    "tone-generator",
+    "wav",
+    "cli"
+  ],
+  "homepage": "https://myphonespeaker.com/",
+  "bugs": {
+    "url": "https://github.com/praiseyoutwo-cloud/myphonespeaker-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praiseyoutwo-cloud/myphonespeaker-cli.git"
+  },
+  "license": "MIT",
+  "author": "MyPhoneSpeaker",
+  "type": "module",
+  "bin": {
+    "myphonespeaker": "bin/myphonespeaker.js"
+  },
+  "files": [
+    "bin/",
+    "data/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "sync": "node scripts/sync-data.mjs",
+    "test": "node bin/myphonespeaker.js --help && node bin/myphonespeaker.js tools"
+  }
+}

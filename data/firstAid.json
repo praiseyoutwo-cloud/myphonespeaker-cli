@@ -1,0 +1,115 @@
+{
+  "skipTitle": "Skip the tone and read this page first if:",
+  "skip": [
+    "The phone was under water, not only splashed.",
+    "The phone does not turn on, or the screen does not respond.",
+    "The phone is hot, or the battery looks swollen.",
+    "The liquid was salt water, soap, juice, or another sugary liquid."
+  ],
+  "skipNote": "In these cases, power the phone off, keep it unplugged, dry it in airflow, and ask the maker or a repair shop. The tone does not reach the inside of the phone.",
+  "stepsTitle": "What to do if your phone gets wet, in order",
+  "steps": [
+    {
+      "t": "Take the phone out of the water. If it was submerged, turn the phone off.",
+      "src": [
+        3,
+        7
+      ]
+    },
+    {
+      "t": "Do not plug in a cable. Do not charge the phone. Wet connector pins can corrode and cause permanent damage.",
+      "src": [
+        1,
+        7
+      ]
+    },
+    {
+      "t": "Take off the case and any accessories.",
+      "src": []
+    },
+    {
+      "t": "Wipe the outside with a clean, soft, dry cloth. Do not press hard. Hard pressure can push liquid further in.",
+      "src": [
+        4,
+        5
+      ]
+    },
+    {
+      "t": "Tap the phone gently against your hand with the connector facing down. This removes excess liquid.",
+      "src": [
+        1,
+        2
+      ]
+    },
+    {
+      "t": "Hold the phone with the speaker facing down, or put it speaker side down on a lint-free cloth. Check if water drips out.",
+      "src": [
+        2,
+        4
+      ]
+    },
+    {
+      "t": "Do not use a hair dryer, heat, or compressed air. Do not push a cotton swab, paper towel, or other object into an opening.",
+      "src": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "t": "Leave the phone in a dry place with some airflow. A fan that blows cool air into the connector can help.",
+      "src": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "t": "Wait at least 5 hours before you charge with a cable. This is Apple's rule for a wet iPhone. See the details below.",
+      "src": [
+        1,
+        2
+      ]
+    },
+    {
+      "t": "Only if the phone is on, responds normally, and was not submerged: you can try the tone on the home page. It helps with a muffled speaker only.",
+      "src": [
+        8
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Apple 102643: If you see a liquid-detection alert on your iPhone",
+      "url": "https://support.apple.com/en-us/102643"
+    },
+    {
+      "label": "Apple 108039: About splash, water and dust resistance of iPhone",
+      "url": "https://support.apple.com/en-us/108039"
+    },
+    {
+      "label": "Google Pixel Help 7533279: Help prevent water damage to your Pixel phone",
+      "url": "https://support.google.com/pixelphone/answer/7533279?hl=en"
+    },
+    {
+      "label": "Samsung Singapore: What to do when Samsung mobile is exposed to water",
+      "url": "https://www.samsung.com/sg/support/mobile-devices/what-to-do-when-samsung-mobile-device-is-exposed-to-underwater-and-affect-the-sound-quality-during-call/"
+    },
+    {
+      "label": "Samsung UK: Troubleshooting speaker and sound issues on a Samsung Galaxy device",
+      "url": "https://www.samsung.com/uk/support/mobile-devices/troubleshooting-speaker-and-sound-issues-on-a-samsung-galaxy-device/"
+    },
+    {
+      "label": "Xiaomi KA-484747: Why does liquid exposure lead to speaker failure",
+      "url": "https://www.mi.com/global/support/faq/details/KA-484747/"
+    },
+    {
+      "label": "iFixit wiki: Electronics Water Damage",
+      "url": "https://www.ifixit.com/Wiki/Electronics_Water_Damage"
+    },
+    {
+      "label": "The Verge, Aug 2024: Can a YouTube video really fix your wet phone? (iFixit dye test)",
+      "url": "https://www.theverge.com/2024/8/27/24228925/remove-water-phone-youtube-vergecast"
+    }
+  ]
+}

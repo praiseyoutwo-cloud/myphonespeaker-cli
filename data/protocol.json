@@ -1,0 +1,41 @@
+{
+  "$comment": "Single source of truth for the water-eject tone. Read by src/lib/engine.ts and by media/video/render_tone.py. Sources: science-report.md 'Suggested evidence-based protocol' (run-pause-run pulses, Apple US10595107 'about 10 tones'; low tone 150-300 Hz stepped, not one fixed number; under 1 minute continuous per cycle).",
+  "version": 1,
+  "water": {
+    "waveform": "sine",
+    "cycles": 3,
+    "pulsesPerCycle": 10,
+    "pulseOnSeconds": 1.5,
+    "pulseOffSeconds": 0.75,
+    "rampSeconds": 0.01,
+    "peakGain": 1,
+    "frequencyStartHz": 150,
+    "frequencyEndHz": 300,
+    "frequencySteps": "linear across the pulses of one cycle: pulse i uses start + (end-start) * i/(pulses-1), rounded to 1 Hz",
+    "betweenCycleSeconds": 12
+  },
+  "resonancePass": {
+    "$comment": "Optional, off by default, labelled experimental. Micro-speaker resonance about 450-900 Hz (Knowles/AAC datasheets).",
+    "enabledByDefault": false,
+    "waveform": "sine",
+    "sweepFromHz": 450,
+    "sweepToHz": 900,
+    "sweepSeconds": 4,
+    "repeats": 2,
+    "peakGain": 0.9,
+    "rampSeconds": 0.02
+  },
+  "check": {
+    "$comment": "Before/after listening check: short exponential sweep at moderate level, then the user answers.",
+    "sweepFromHz": 200,
+    "sweepToHz": 4000,
+    "sweepSeconds": 4,
+    "peakGain": 0.5,
+    "rampSeconds": 0.05
+  },
+  "dryingTimer": {
+    "$comment": "Apple support 102643 / HT207043: wait 30 minutes to 5 hours before cable charging; up to a day if the liquid alert returns.",
+    "minimumMinutes": 30,
+    "recommendedMinutes": 300
+  }
+}

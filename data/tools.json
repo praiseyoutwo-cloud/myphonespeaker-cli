@@ -1,0 +1,72 @@
+[
+  {
+    "id": "water-eject",
+    "path": "/",
+    "kind": "tool",
+    "name": "Water eject tone",
+    "summary": "A guided three-cycle tone that pushes droplets out of the speaker grille."
+  },
+  {
+    "id": "speaker-check",
+    "path": "/speaker-check/",
+    "kind": "tool",
+    "name": "Speaker and earpiece check",
+    "summary": "Sweep, left and right test, earpiece test and vibration test."
+  },
+  {
+    "id": "mic-test",
+    "path": "/mic-test/",
+    "kind": "tool",
+    "name": "Microphone test",
+    "summary": "Record a short clip and play it back to hear if the microphone is muffled."
+  },
+  {
+    "id": "problem-finder",
+    "path": "/speaker-problem-finder/",
+    "kind": "tool",
+    "name": "Speaker problem finder",
+    "summary": "Answer a few questions and get the most likely fix."
+  },
+  {
+    "id": "recovery-checklist",
+    "path": "/wet-phone-checklist/",
+    "kind": "tool",
+    "name": "Wet phone checklist",
+    "summary": "Tick off each recovery step and track the drying time before charging."
+  },
+  {
+    "id": "first-aid",
+    "path": "/wet-phone-first-aid/",
+    "kind": "guide",
+    "name": "Wet phone first aid",
+    "summary": "What to do in the first hour, from phone makers' own guidance."
+  },
+  {
+    "id": "does-it-work",
+    "path": "/does-water-eject-sound-work/",
+    "kind": "guide",
+    "name": "Does the water eject sound work?",
+    "summary": "What independent tests found, and what sound cannot do."
+  },
+  {
+    "id": "how-we-measured",
+    "path": "/how-we-measured/",
+    "kind": "guide",
+    "name": "How we measured",
+    "summary": "What popular speaker cleaner sounds actually play, and our own tone."
+  },
+  {
+    "id": "charging-port",
+    "path": "/water-in-charging-port/",
+    "kind": "guide",
+    "name": "Water in the charging port",
+    "summary": "What to do when the port is wet or a liquid alert shows, and when to charge again."
+  },
+  {
+    "id": "speaker-dust",
+    "path": "/clean-phone-speaker-dust/",
+    "kind": "guide",
+    "name": "Clean speaker dust",
+    "summary": "Brush dust and lint out of the grille safely, and why a sound will not do it."
+  }
+]
